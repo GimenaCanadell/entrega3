@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: blue;
+  color: pink;
+}
+
+.banner {
+  height: 100vh;
+  overflow: hidden;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.banner img {
+  widht: 100%;
+  animation-name: zoom;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 8s;
+}
+
+.contenido {
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.contenedor {
+  background-position: relative;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.item {
+  widht: 33.333333%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 250ms;
+}
+
+.footer {
+  position: relative;
+}
+
+.box {
+  background-color: grey;
+  position: relative;
+  border-radius: 4px;
+  height: 20vh;
+  widht: 300px;
+  transition: all 400ms ease-in-out;
+}
+
+.fotos {
+  padding: 20px;
+  margin: 20px;
+}
