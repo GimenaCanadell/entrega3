@@ -3,9 +3,10 @@
   margin: 0;
 }
 
-.body {
-  background-color: blue;
-  color: pink;
+.header {
+  color: grey;
+  background-position: justify-content;
+
 }
 
 .banner {
@@ -28,21 +29,17 @@
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-duration: 8s;
+  animation-fill-mode: fowards;
 }
 
 .contenido {
-  padding: 50px;
-  padding-top: 10px;
-}
-
-.contenedor {
-  background-position: relative;
-  max-width: 1200px;
-  margin: auto;
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.item {
+.item img {
+  hover: black;
   widht: 33.333333%;
   padding: 20px;
   box-sizing: border-box;
@@ -54,15 +51,23 @@
 }
 
 .box {
+  margin: 20px;
   background-color: grey;
   position: relative;
   border-radius: 4px;
-  height: 20vh;
-  widht: 300px;
-  transition: all 400ms ease-in-out;
+  height: 10vh;
+  widht: 200px;
+  transition: all 300ms ease-in-out;
+  
+}
 }
 
 .fotos {
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
+}
+
+.copi {
+  background-position: relative;
+ 
 }
